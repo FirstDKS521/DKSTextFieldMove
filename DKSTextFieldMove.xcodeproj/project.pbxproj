@@ -13,6 +13,13 @@
 		61018FBC1F171957000B0703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61018FBA1F171957000B0703 /* LaunchScreen.storyboard */; };
 		61018FC71F171957000B0703 /* DKSTextFieldMoveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61018FC61F171957000B0703 /* DKSTextFieldMoveTests.m */; };
 		61018FD21F171957000B0703 /* DKSTextFieldMoveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61018FD11F171957000B0703 /* DKSTextFieldMoveUITests.m */; };
+		61018FE11F17196F000B0703 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61018FE01F17196F000B0703 /* RootViewController.m */; };
+		61018FE51F171A24000B0703 /* RootCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 61018FE31F171A24000B0703 /* RootCell.m */; };
+		61018FE61F171A24000B0703 /* RootCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61018FE41F171A24000B0703 /* RootCell.xib */; };
+		61018FF71F173E54000B0703 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61018FF51F173E54000B0703 /* TestViewController.m */; };
+		61018FF81F173E54000B0703 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61018FF61F173E54000B0703 /* TestViewController.xib */; };
+		610190051F174D3A000B0703 /* DKSAutoMoveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610190021F174D3A000B0703 /* DKSAutoMoveController.m */; };
+		610190061F174D3A000B0703 /* UIView+FrameTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 610190041F174D3A000B0703 /* UIView+FrameTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +53,18 @@
 		61018FCD1F171957000B0703 /* DKSTextFieldMoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKSTextFieldMoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61018FD11F171957000B0703 /* DKSTextFieldMoveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKSTextFieldMoveUITests.m; sourceTree = "<group>"; };
 		61018FD31F171957000B0703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61018FDF1F17196F000B0703 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		61018FE01F17196F000B0703 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		61018FE21F171A24000B0703 /* RootCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootCell.h; sourceTree = "<group>"; };
+		61018FE31F171A24000B0703 /* RootCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootCell.m; sourceTree = "<group>"; };
+		61018FE41F171A24000B0703 /* RootCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootCell.xib; sourceTree = "<group>"; };
+		61018FF41F173E54000B0703 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		61018FF51F173E54000B0703 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		61018FF61F173E54000B0703 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		610190011F174D3A000B0703 /* DKSAutoMoveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSAutoMoveController.h; sourceTree = "<group>"; };
+		610190021F174D3A000B0703 /* DKSAutoMoveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSAutoMoveController.m; sourceTree = "<group>"; };
+		610190031F174D3A000B0703 /* UIView+FrameTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameTool.h"; sourceTree = "<group>"; };
+		610190041F174D3A000B0703 /* UIView+FrameTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameTool.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +115,17 @@
 		61018FB11F171957000B0703 /* DKSTextFieldMove */ = {
 			isa = PBXGroup;
 			children = (
+				610190001F174D3A000B0703 /* DKSAutoMove */,
 				61018FB51F171957000B0703 /* AppDelegate.h */,
 				61018FB61F171957000B0703 /* AppDelegate.m */,
+				61018FDF1F17196F000B0703 /* RootViewController.h */,
+				61018FE01F17196F000B0703 /* RootViewController.m */,
+				61018FE21F171A24000B0703 /* RootCell.h */,
+				61018FE31F171A24000B0703 /* RootCell.m */,
+				61018FE41F171A24000B0703 /* RootCell.xib */,
+				61018FF41F173E54000B0703 /* TestViewController.h */,
+				61018FF51F173E54000B0703 /* TestViewController.m */,
+				61018FF61F173E54000B0703 /* TestViewController.xib */,
 				61018FB81F171957000B0703 /* Assets.xcassets */,
 				61018FBA1F171957000B0703 /* LaunchScreen.storyboard */,
 				61018FBD1F171957000B0703 /* Info.plist */,
@@ -130,6 +158,17 @@
 				61018FD31F171957000B0703 /* Info.plist */,
 			);
 			path = DKSTextFieldMoveUITests;
+			sourceTree = "<group>";
+		};
+		610190001F174D3A000B0703 /* DKSAutoMove */ = {
+			isa = PBXGroup;
+			children = (
+				610190011F174D3A000B0703 /* DKSAutoMoveController.h */,
+				610190021F174D3A000B0703 /* DKSAutoMoveController.m */,
+				610190031F174D3A000B0703 /* UIView+FrameTool.h */,
+				610190041F174D3A000B0703 /* UIView+FrameTool.m */,
+			);
+			path = DKSAutoMove;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				61018FB91F171957000B0703 /* Assets.xcassets in Resources */,
+				61018FE61F171A24000B0703 /* RootCell.xib in Resources */,
+				61018FF81F173E54000B0703 /* TestViewController.xib in Resources */,
 				61018FBC1F171957000B0703 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +309,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				61018FB71F171957000B0703 /* AppDelegate.m in Sources */,
+				61018FE51F171A24000B0703 /* RootCell.m in Sources */,
+				610190061F174D3A000B0703 /* UIView+FrameTool.m in Sources */,
 				61018FB41F171957000B0703 /* main.m in Sources */,
+				61018FF71F173E54000B0703 /* TestViewController.m in Sources */,
+				610190051F174D3A000B0703 /* DKSAutoMoveController.m in Sources */,
+				61018FE11F17196F000B0703 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X42645MK9G;
 				INFOPLIST_FILE = DKSTextFieldMove/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.robooot.DKSTextFieldMove;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +470,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X42645MK9G;
 				INFOPLIST_FILE = DKSTextFieldMove/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.robooot.DKSTextFieldMove;
 				PRODUCT_NAME = "$(TARGET_NAME)";
