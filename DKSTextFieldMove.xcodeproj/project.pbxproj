@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61018FB41F171957000B0703 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61018FB31F171957000B0703 /* main.m */; };
+		61018FB71F171957000B0703 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61018FB61F171957000B0703 /* AppDelegate.m */; };
+		61018FB91F171957000B0703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61018FB81F171957000B0703 /* Assets.xcassets */; };
+		61018FBC1F171957000B0703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61018FBA1F171957000B0703 /* LaunchScreen.storyboard */; };
+		61018FC71F171957000B0703 /* DKSTextFieldMoveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61018FC61F171957000B0703 /* DKSTextFieldMoveTests.m */; };
+		61018FD21F171957000B0703 /* DKSTextFieldMoveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61018FD11F171957000B0703 /* DKSTextFieldMoveUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61018FC31F171957000B0703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61018FA71F171957000B0703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61018FAE1F171957000B0703;
+			remoteInfo = DKSTextFieldMove;
+		};
+		61018FCE1F171957000B0703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61018FA71F171957000B0703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61018FAE1F171957000B0703;
+			remoteInfo = DKSTextFieldMove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61018FAF1F171957000B0703 /* DKSTextFieldMove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKSTextFieldMove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61018FB31F171957000B0703 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61018FB51F171957000B0703 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61018FB61F171957000B0703 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61018FB81F171957000B0703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61018FBB1F171957000B0703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61018FBD1F171957000B0703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61018FC21F171957000B0703 /* DKSTextFieldMoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKSTextFieldMoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61018FC61F171957000B0703 /* DKSTextFieldMoveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKSTextFieldMoveTests.m; sourceTree = "<group>"; };
+		61018FC81F171957000B0703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61018FCD1F171957000B0703 /* DKSTextFieldMoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKSTextFieldMoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61018FD11F171957000B0703 /* DKSTextFieldMoveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKSTextFieldMoveUITests.m; sourceTree = "<group>"; };
+		61018FD31F171957000B0703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61018FAC1F171957000B0703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61018FBF1F171957000B0703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61018FCA1F171957000B0703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61018FA61F171957000B0703 = {
+			isa = PBXGroup;
+			children = (
+				61018FB11F171957000B0703 /* DKSTextFieldMove */,
+				61018FC51F171957000B0703 /* DKSTextFieldMoveTests */,
+				61018FD01F171957000B0703 /* DKSTextFieldMoveUITests */,
+				61018FB01F171957000B0703 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61018FB01F171957000B0703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61018FAF1F171957000B0703 /* DKSTextFieldMove.app */,
+				61018FC21F171957000B0703 /* DKSTextFieldMoveTests.xctest */,
+				61018FCD1F171957000B0703 /* DKSTextFieldMoveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61018FB11F171957000B0703 /* DKSTextFieldMove */ = {
+			isa = PBXGroup;
+			children = (
+				61018FB51F171957000B0703 /* AppDelegate.h */,
+				61018FB61F171957000B0703 /* AppDelegate.m */,
+				61018FB81F171957000B0703 /* Assets.xcassets */,
+				61018FBA1F171957000B0703 /* LaunchScreen.storyboard */,
+				61018FBD1F171957000B0703 /* Info.plist */,
+				61018FB21F171957000B0703 /* Supporting Files */,
+			);
+			path = DKSTextFieldMove;
+			sourceTree = "<group>";
+		};
+		61018FB21F171957000B0703 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61018FB31F171957000B0703 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61018FC51F171957000B0703 /* DKSTextFieldMoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				61018FC61F171957000B0703 /* DKSTextFieldMoveTests.m */,
+				61018FC81F171957000B0703 /* Info.plist */,
+			);
+			path = DKSTextFieldMoveTests;
+			sourceTree = "<group>";
+		};
+		61018FD01F171957000B0703 /* DKSTextFieldMoveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61018FD11F171957000B0703 /* DKSTextFieldMoveUITests.m */,
+				61018FD31F171957000B0703 /* Info.plist */,
+			);
+			path = DKSTextFieldMoveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61018FAE1F171957000B0703 /* DKSTextFieldMove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61018FD61F171957000B0703 /* Build configuration list for PBXNativeTarget "DKSTextFieldMove" */;
+			buildPhases = (
+				61018FAB1F171957000B0703 /* Sources */,
+				61018FAC1F171957000B0703 /* Frameworks */,
+				61018FAD1F171957000B0703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKSTextFieldMove;
+			productName = DKSTextFieldMove;
+			productReference = 61018FAF1F171957000B0703 /* DKSTextFieldMove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61018FC11F171957000B0703 /* DKSTextFieldMoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61018FD91F171957000B0703 /* Build configuration list for PBXNativeTarget "DKSTextFieldMoveTests" */;
+			buildPhases = (
+				61018FBE1F171957000B0703 /* Sources */,
+				61018FBF1F171957000B0703 /* Frameworks */,
+				61018FC01F171957000B0703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61018FC41F171957000B0703 /* PBXTargetDependency */,
+			);
+			name = DKSTextFieldMoveTests;
+			productName = DKSTextFieldMoveTests;
+			productReference = 61018FC21F171957000B0703 /* DKSTextFieldMoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61018FCC1F171957000B0703 /* DKSTextFieldMoveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61018FDC1F171957000B0703 /* Build configuration list for PBXNativeTarget "DKSTextFieldMoveUITests" */;
+			buildPhases = (
+				61018FC91F171957000B0703 /* Sources */,
+				61018FCA1F171957000B0703 /* Frameworks */,
+				61018FCB1F171957000B0703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61018FCF1F171957000B0703 /* PBXTargetDependency */,
+			);
+			name = DKSTextFieldMoveUITests;
+			productName = DKSTextFieldMoveUITests;
+			productReference = 61018FCD1F171957000B0703 /* DKSTextFieldMoveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61018FA71F171957000B0703 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = DuKaiShun;
+				TargetAttributes = {
+					61018FAE1F171957000B0703 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X42645MK9G;
+						ProvisioningStyle = Automatic;
+					};
+					61018FC11F171957000B0703 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X42645MK9G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61018FAE1F171957000B0703;
+					};
+					61018FCC1F171957000B0703 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X42645MK9G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61018FAE1F171957000B0703;
+					};
+				};
+			};
+			buildConfigurationList = 61018FAA1F171957000B0703 /* Build configuration list for PBXProject "DKSTextFieldMove" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61018FA61F171957000B0703;
+			productRefGroup = 61018FB01F171957000B0703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61018FAE1F171957000B0703 /* DKSTextFieldMove */,
+				61018FC11F171957000B0703 /* DKSTextFieldMoveTests */,
+				61018FCC1F171957000B0703 /* DKSTextFieldMoveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61018FAD1F171957000B0703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61018FB91F171957000B0703 /* Assets.xcassets in Resources */,
+				61018FBC1F171957000B0703 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61018FC01F171957000B0703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61018FCB1F171957000B0703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61018FAB1F171957000B0703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61018FB71F171957000B0703 /* AppDelegate.m in Sources */,
+				61018FB41F171957000B0703 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61018FBE1F171957000B0703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61018FC71F171957000B0703 /* DKSTextFieldMoveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61018FC91F171957000B0703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61018FD21F171957000B0703 /* DKSTextFieldMoveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61018FC41F171957000B0703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61018FAE1F171957000B0703 /* DKSTextFieldMove */;
+			targetProxy = 61018FC31F171957000B0703 /* PBXContainerItemProxy */;
+		};
+		61018FCF1F171957000B0703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61018FAE1F171957000B0703 /* DKSTextFieldMove */;
+			targetProxy = 61018FCE1F171957000B0703 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61018FBA1F171957000B0703 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61018FBB1F171957000B0703 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61018FD41F171957000B0703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61018FD51F171957000B0703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61018FD71F171957000B0703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X42645MK9G;
+				INFOPLIST_FILE = DKSTextFieldMove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robooot.DKSTextFieldMove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61018FD81F171957000B0703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X42645MK9G;
+				INFOPLIST_FILE = DKSTextFieldMove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robooot.DKSTextFieldMove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		61018FDA1F171957000B0703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X42645MK9G;
+				INFOPLIST_FILE = DKSTextFieldMoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robooot.DKSTextFieldMoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKSTextFieldMove.app/DKSTextFieldMove";
+			};
+			name = Debug;
+		};
+		61018FDB1F171957000B0703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X42645MK9G;
+				INFOPLIST_FILE = DKSTextFieldMoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robooot.DKSTextFieldMoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKSTextFieldMove.app/DKSTextFieldMove";
+			};
+			name = Release;
+		};
+		61018FDD1F171957000B0703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X42645MK9G;
+				INFOPLIST_FILE = DKSTextFieldMoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robooot.DKSTextFieldMoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DKSTextFieldMove;
+			};
+			name = Debug;
+		};
+		61018FDE1F171957000B0703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X42645MK9G;
+				INFOPLIST_FILE = DKSTextFieldMoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robooot.DKSTextFieldMoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DKSTextFieldMove;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61018FAA1F171957000B0703 /* Build configuration list for PBXProject "DKSTextFieldMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61018FD41F171957000B0703 /* Debug */,
+				61018FD51F171957000B0703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61018FD61F171957000B0703 /* Build configuration list for PBXNativeTarget "DKSTextFieldMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61018FD71F171957000B0703 /* Debug */,
+				61018FD81F171957000B0703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61018FD91F171957000B0703 /* Build configuration list for PBXNativeTarget "DKSTextFieldMoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61018FDA1F171957000B0703 /* Debug */,
+				61018FDB1F171957000B0703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61018FDC1F171957000B0703 /* Build configuration list for PBXNativeTarget "DKSTextFieldMoveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61018FDD1F171957000B0703 /* Debug */,
+				61018FDE1F171957000B0703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61018FA71F171957000B0703 /* Project object */;
+}
